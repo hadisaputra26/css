@@ -1,0 +1,31 @@
+.kotak {
+	display: inline-block;
+	margin-left: 20px;
+	width: 200px;
+	height: 200px;
+}
+.satu {
+	background-color: blue;
+	opacity: 0.2;
+}
+
+.dua {
+	background-color: blue;
+	opacity: 0.4;
+}
+.tiga {
+	background-color: blue;
+	opacity: 0.6;
+}
+.empat {
+	background-color: blue;
+	opacity: 0.8;
+}
+.lima {
+	background-color: blue;
+	opacity: 1;
+}
+
+body {
+	background-image:url("img.jpg");
+}

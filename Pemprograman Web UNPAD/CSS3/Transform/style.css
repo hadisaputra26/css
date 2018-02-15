@@ -1,0 +1,35 @@
+div.kotak{
+	margin: 100px auto;
+	width: 200px;
+	height: 200px;
+	background-color: blue;
+	transition: 1s;
+}
+
+div.kotak:hover {
+	/*transform: scale(2);*/
+	/*transform: scale(5, 1.5);*/
+
+	/*transform: rotate(45deg);*/
+	/*transform: rotate(180deg) rotateX(180deg) rotateY(180deg) scale(2);*/
+
+	/*transform: skew(30deg);*/
+	
+	/*transform: translate(50px);*/
+	transform: translate(50px, 100px);
+}
+
+p {
+	text-align: center;
+}
+
+/*
+	// Memperbesar atau memperkecil objek
+	transform: scale(angka), scaleX(angka), scaleY(angka);
+	// merotasi objek
+	transform: rotate(deg), rotateX(deg), rotateY(deg);
+	// memiringkan objek
+	transform: skew(deg), skewX(deg), skewY(deg);
+	// menggegeser atau memindahkan object
+	transform: translate(px), translateX(px), translateY(px);
+*/

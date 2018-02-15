@@ -1,0 +1,21 @@
+body {
+	text-align:center;
+}
+
+img {
+	width: 300px;
+	filter: brightness(1.8);
+}
+
+/*filter
+	filter: blur(px);
+	filter: brightness(angka | %);
+	filter: contrast(angka | %);
+	filter: saturate(angka | %);
+	filter: grayscale(angka | %);
+	filter: sepia(angka | %);
+	filter: hue-rotate(deg);
+	filter: invert(angka | %);
+	filter: opacity(angka | %);
+	filter: drop-shadow();
+*/
